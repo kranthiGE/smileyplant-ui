@@ -8,3 +8,4 @@ Automated watering of plants using raspberry pi, AWS cloud and mobile applicatio
 
 ### Draft circuit diagram
 
+![alt tag](https://github.com/kranthiGE/smileyplant-ui/public/images/circuit.png)
