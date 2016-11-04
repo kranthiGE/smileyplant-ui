@@ -8,17 +8,12 @@
     <title>Kranthi's Smiley Plant App</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
-	<body>
+	<body ng-app="smileyPlantApp">
 		<section>
 			<div class="container">
 				<!-- Header with a logo & heading-->
 				<header>
-				<div class="row text-center">
-					<div class="col-md-12 text-right text-uppercase">
-						<h1 class="text-thin text-large">Smiley Plant</h1>
-						<h6>Water your plants</h6>
-					</div>
-				</div>
+					<div ng-include="'views/header.html'" ng-controller="UsercontrollerCtrl as userctrl"></div>
 				</header>
 				<aside>
 					<div class="row text-top">
@@ -106,10 +101,15 @@
 			}
 		</script>
 
-		<script src="js/lib/jquery-2.1.4.min.js"></script>
-		<script src="js/lib/bootstrap.min.js"></script>
-		<script src="js/lib/bootstrap-toggle.min.js"></script>
-		<script src="js/device.api.js" async="async"></script>
-		<script src="js/main.js" async="async"></script>
+		<script src="scripts/lib/jquery-2.1.4.min.js"></script>
+		<script src="scripts/lib/bootstrap.min.js"></script>
+		<script src="scripts/lib/bootstrap-toggle.min.js"></script>
+		<script src="scripts/lib/angular.min.js"></script>
+		
+		<script src="scripts/app.min.js"></script>
+		<script src="scripts/services/usermanager.min.js"></script>
+		<script src="scripts/controllers/usercontroller.min.js"></script>
+		<script src="scripts/device-api.min.js" async="async"></script>
+		<script src="scripts/main.min.js" async="async"></script>
 	</body>
 </html>

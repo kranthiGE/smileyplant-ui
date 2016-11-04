@@ -1,4 +1,12 @@
 ---
-applications:  
-- name: smiley-plant
-  path: public
+applications:
+  - name: smiley-plant-ui
+    buildpack: predix_openresty_buildpack
+    path: dist
+    memory: 1024M
+    stack: cflinuxfs2
+    services:
+            - smiley_plant_redis
+    env:
+      UAA_SERVER_URL: https://52d8d211-3773-4f70-8607-15e68e1486c6.predix-uaa.run.aws-usw02-pr.ice.predix.io
+      REDIS: redis-4
