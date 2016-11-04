@@ -7,6 +7,7 @@ Automated watering of plants using raspberry pi, AWS cloud and mobile applicatio
 - exploring options to connect to mobile phone, so that it can be monitored from anywhere
 
 ### Draft circuit diagram
+![alt tag](https://github.com/kranthiGE/smileyplant-ui/tree/master/public/images/circuit.png)
 
 ### UAA
 1. Create a UAA instance following [these steps](https://www.predix.io/docs/?r=250183#XpKGAdQ7-Q0CoIStl).
