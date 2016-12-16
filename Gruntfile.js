@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 // All upfront config goes in a massive nested object.
   grunt.initConfig({
     // You can set arbitrary key-value pairs.
-    srcFolder: 'public',
+    srcFolder: 'app',
     destFolder: 'dist',
     distFolder: 'scripts',
     configFolder: 'config',

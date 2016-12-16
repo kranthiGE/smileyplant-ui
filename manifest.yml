@@ -8,5 +8,6 @@ applications:
     services:
             - smiley_plant_redis
     env:
-      UAA_SERVER_URL: https://52d8d211-3773-4f70-8607-15e68e1486c6.predix-uaa.run.aws-usw02-pr.ice.predix.io
+      UAA_SERVER_URL: https://a8a2ffc4-b04e-4ec1-bfed-7a51dd408725.predix-uaa.run.aws-usw02-pr.ice.predix.io
+      SERVICES_URL: https://smiley-plant-svs-uaa.run.aws-usw02-pr.ice.predix.io
       REDIS: redis-4
